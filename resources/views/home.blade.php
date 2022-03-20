@@ -11,7 +11,7 @@
 <body>
    <header>Treni</header>
    <main>
-      @foreach ($trains as $train)
+      @forelse ($trains as $train)
          <ul>
             <li>{{ $train->company }}</li>
             <li>{{ $train->departure_station }}</li>
@@ -20,7 +20,11 @@
             <li>{{ $train->arrival_time }}</li>
             <li>{{ $train->carriages }}</li>
          </ul>
-      @endforeach
+      @empty
+         <h2>
+            Nessun Treno
+         </h2>
+      @endforelse
    </main>
 </body>
 

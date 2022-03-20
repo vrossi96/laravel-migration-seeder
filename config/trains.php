@@ -1,0 +1,36 @@
+<?php
+return [
+   [
+      'company' => 'Hitachi',
+      'departure_station' => 'Verona Porta Nuova',
+      'arrival_station' => 'Firenze Santa Maria Novella',
+      'departure_time' => '2022-03-21 18:40:42',
+      'arrival_time' => '2022-03-21 19:40:00',
+      'train_code' => 14526,
+      'carriages' => 5,
+      'is_in_time' => true,
+      'is_cancelled' => false,
+   ],
+   [
+      'company' => 'Italo',
+      'departure_station' => 'Venezia',
+      'arrival_station' => 'Milano',
+      'departure_time' => '2022-03-21 12:40:42',
+      'arrival_time' => '2022-03-21 14:40:00',
+      'train_code' => 14526,
+      'carriages' => 6,
+      'is_in_time' => true,
+      'is_cancelled' => false,
+   ],
+   [
+      'company' => 'Hitachi',
+      'departure_station' => 'Milano',
+      'arrival_station' => 'Lamezia Terme',
+      'departure_time' => '2022-03-21 10:40:42',
+      'arrival_time' => '2022-03-21 14:40:00',
+      'train_code' => 19426,
+      'carriages' => 3,
+      'is_in_time' => true,
+      'is_cancelled' => false,
+   ],
+];
